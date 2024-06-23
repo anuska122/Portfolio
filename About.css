@@ -1,34 +1,65 @@
-body{
-    background: #6d6d8f ;
+body {
+    background: #1f1f21;
+    color: #cbcaca;
+    overflow-x: hidden;
 }
-.about{
+
+.about {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    
-}
-.about-img img{
-    width: 30vw;
-    border-radius: 50%;
-    margin-top: 90px;
-    opacity: 0.7;
+
 }
 
-.heading{
-    text-align: center;
-    font-size: 3rem;
+.about-img img {
+    width: 30vw;
+    border-radius: 50%;
+    margin-top: 150px;
+    opacity: 0.8;
 }
-.about-content h2{
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    color: rgba(14, 135, 255, 0.947);
+}
+h3{
+    color: rgba(14, 135, 255, 0.947);
+}
+
+.about-content h2 {
     font-size: 2.5rem;
     text-align: center;
     line-height: 1.2;
-    
+
 }
-.about-content h3{
+
+.about-content h3 {
     font-size: 2rem;
 }
+
 .about-content p {
     font-size: 1.5rem;
     margin: 2rem 0 3rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 35px;
+    background: rgba(14, 135, 255, 0.947);
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid rgba(14, 135, 255, 0.947);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: all 0.6s ease-in-out;
+
+}
+
+.btn:hover {
+    transform: translate(-5px);
+    background: transparent;
+    color: rgba(14, 135, 255, 0.947);
 }
