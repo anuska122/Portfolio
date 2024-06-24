@@ -52,7 +52,7 @@ body {
     transform: scale(1.01) translateY(-5px);
     color: rgba(14, 135, 255, 0.947);;
 }
-.contact-icons{
+/* .contact-icons{
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ body {
     animation: slideleft is ease forwards;
     animation-delay: calc(.2s * var(--1));
 
-}
+} */
 .contact-form form{
     position: relative;
 }
